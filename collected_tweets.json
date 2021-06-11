@@ -1,0 +1,560 @@
+[
+    {
+        "created_at": "2021-06-11 09:04:22",
+        "favourite_count": 0,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@an_indian_life So the whole day \ud83d\ude1c",
+        "tweet_id": 1403276915310534657
+    },
+    {
+        "created_at": "2021-06-11 09:03:52",
+        "favourite_count": 0,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@ananya82452194 You're a full night owl!",
+        "tweet_id": 1403276786671235072
+    },
+    {
+        "created_at": "2021-06-11 09:03:02",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@daniilbirsan Usually, in the morning, I feel more productive, too. Specially when I'm debugging code!",
+        "tweet_id": 1403276580219129863
+    },
+    {
+        "created_at": "2021-06-11 02:23:07",
+        "favourite_count": 7,
+        "hashtags": [
+            {
+                "indices": [
+                    82,
+                    96
+                ],
+                "text": "100DaysOfCode"
+            },
+            {
+                "indices": [
+                    98,
+                    109
+                ],
+                "text": "CodeNewbie"
+            },
+            {
+                "indices": [
+                    110,
+                    117
+                ],
+                "text": "Python"
+            },
+            {
+                "indices": [
+                    118,
+                    129
+                ],
+                "text": "Javascript"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 10,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "wmBot",
+        "status_count": 597,
+        "text": "For the next 2 years, Would you rather do freelance work or work for a company?   #100DaysOfCode  #CodeNewbie #Python #Javascript",
+        "tweet_id": 1403175936418369537
+    },
+    {
+        "created_at": "2021-06-11 02:14:54",
+        "favourite_count": 44,
+        "hashtags": [
+            {
+                "indices": [
+                    57,
+                    71
+                ],
+                "text": "100DaysOfCode"
+            },
+            {
+                "indices": [
+                    73,
+                    84
+                ],
+                "text": "CodeNewbie"
+            },
+            {
+                "indices": [
+                    85,
+                    92
+                ],
+                "text": "Python"
+            },
+            {
+                "indices": [
+                    93,
+                    104
+                ],
+                "text": "Javascript"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 11,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "wmBot",
+        "status_count": 597,
+        "text": "What\u2019s your favorite time of the day for writing code?   #100DaysOfCode  #CodeNewbie #Python #Javascript",
+        "tweet_id": 1403173869549195271
+    },
+    {
+        "created_at": "2021-06-11 01:47:30",
+        "favourite_count": 0,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "wmBot",
+        "status_count": 597,
+        "text": "\ud83d\ude0a",
+        "tweet_id": 1403166973169704960
+    },
+    {
+        "created_at": "2021-06-09 10:45:42",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "LinkedIn",
+        "status_count": 597,
+        "text": "The joke is on them!\nhttps://t.co/tv1MlItBry https://t.co/CcoF9X9xwU",
+        "tweet_id": 1402577640347873285
+    },
+    {
+        "created_at": "2021-06-07 11:38:16",
+        "favourite_count": 5,
+        "hashtags": [
+            {
+                "indices": [
+                    196,
+                    208
+                ],
+                "text": "programming"
+            },
+            {
+                "indices": [
+                    209,
+                    218
+                ],
+                "text": "learning"
+            },
+            {
+                "indices": [
+                    219,
+                    233
+                ],
+                "text": "100DaysOfCode"
+            },
+            {
+                "indices": [
+                    234,
+                    246
+                ],
+                "text": "codeNewbies"
+            },
+            {
+                "indices": [
+                    247,
+                    254
+                ],
+                "text": "javasc"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 10,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "LinkedIn",
+        "status_count": 597,
+        "text": "\ud83d\ude23Seriously! ...stop thinking that you'll learn something just by watching someone else doing it.  \"The only way to learn a new programming language is by writing programs in it.\"\u00a0-\u00a0Dennis Ritchie\n#programming #learning #100DaysOfCode #codeNewbies #javasc\u2026https://t.co/9mxWLzFxdM",
+        "tweet_id": 1401866091694104580
+    },
+    {
+        "created_at": "2021-06-05 18:51:05",
+        "favourite_count": 4,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 1,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter Web App",
+        "status_count": 597,
+        "text": "@PythonWithRune My sequence is:\n1) watch tutorials till I get familiar with the language.\n2) read GitHub repos that are in this language; just for fun.\n3) start using the language in a project.\n4) consult the documentation when I get stuck.\n5) repeat the process until I feel confortable.",
+        "tweet_id": 1401250238854307845
+    },
+    {
+        "created_at": "2021-06-05 18:44:47",
+        "favourite_count": 0,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter Web App",
+        "status_count": 597,
+        "text": "@sabrinaesaquino Can you show us what you did?",
+        "tweet_id": 1401248654413926402
+    },
+    {
+        "created_at": "2021-06-05 13:22:48",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "LinkedIn",
+        "status_count": 597,
+        "text": "I was once taking a ride in a concho (public transportation in DR) and I saw this motivational quotes at an unconventional spot. \n\nWhenever I hear a negative voice inside my head, this picture always pops!\n\nKeep on fighting... you'll get there when you ge\u2026https://t.co/lY2ATxXLHe",
+        "tweet_id": 1401167625330335744
+    },
+    {
+        "created_at": "2021-06-04 09:37:01",
+        "favourite_count": 2,
+        "hashtags": [
+            {
+                "indices": [
+                    66,
+                    84
+                ],
+                "text": "pythonprogramming"
+            },
+            {
+                "indices": [
+                    85,
+                    96
+                ],
+                "text": "javascript"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 8,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "LinkedIn",
+        "status_count": 597,
+        "text": "\u201cFirst, solve the problem. Then, write the code.\u201d \u2013 John Johnson\n\n#pythonprogramming #javascript https://t.co/EX3dmxKFep",
+        "tweet_id": 1400748415940694018
+    },
+    {
+        "created_at": "2021-06-04 09:08:47",
+        "favourite_count": 0,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 273,
+        "retweet_text": "Difference between VAR, LET, and CONST in JavaScript \n\nA detailed handmade CheatSheet\ud83d\udc47\ud83c\udffb. https://t.co/s1tjI1WNHR",
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter Web App",
+        "status_count": 597,
+        "text": "RT @jesss_codes: Difference between VAR, LET, and CONST in JavaScript \n\nA detailed handmade CheatSheet\ud83d\udc47\ud83c\udffb. https://t.co/s1tjI1WNHR",
+        "tweet_id": 1400741309271494657
+    },
+    {
+        "created_at": "2021-06-04 09:05:40",
+        "favourite_count": 3,
+        "hashtags": [
+            {
+                "indices": [
+                    34,
+                    50
+                ],
+                "text": "programmingTips"
+            },
+            {
+                "indices": [
+                    51,
+                    59
+                ],
+                "text": "Python3"
+            },
+            {
+                "indices": [
+                    60,
+                    78
+                ],
+                "text": "pythonprogramming"
+            },
+            {
+                "indices": [
+                    80,
+                    94
+                ],
+                "text": "100DaysOfCode"
+            },
+            {
+                "indices": [
+                    95,
+                    106
+                ],
+                "text": "CodeNewbie"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 5,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter Web App",
+        "status_count": 597,
+        "text": "Merge two dictionaries in Python:\n#programmingTips #Python3 #pythonprogramming  #100DaysOfCode #CodeNewbie https://t.co/RA8TygYbuQ",
+        "tweet_id": 1400740525280567296
+    },
+    {
+        "created_at": "2021-06-03 22:19:18",
+        "favourite_count": 8,
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    20
+                ],
+                "text": "USELESS_PROGRAMMING"
+            },
+            {
+                "indices": [
+                    124,
+                    131
+                ],
+                "text": "Python"
+            },
+            {
+                "indices": [
+                    132,
+                    143
+                ],
+                "text": "javascript"
+            },
+            {
+                "indices": [
+                    145,
+                    159
+                ],
+                "text": "100DaysOfCode"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 16,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter Web App",
+        "status_count": 597,
+        "text": "#USELESS_PROGRAMMING\nHow to print a triangle in Python!\ud83e\udd37\ud83c\udffd\u200d\u2642\ufe0f...Well, in case you have a coding interview... You never know!\n#Python #javascript  #100DaysOfCode https://t.co/eC92ZuAfP3",
+        "tweet_id": 1400577861539581954
+    },
+    {
+        "created_at": "2021-06-03 15:36:09",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@TheStevenGodson @iamsegunajibola \ud83d\udc4b\ud83c\udffe",
+        "tweet_id": 1400476407046852613
+    },
+    {
+        "created_at": "2021-06-03 14:41:55",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@JairAbregoC @RobOttoBots Your stack is great... Keep on improving them.",
+        "tweet_id": 1400462758416588802
+    },
+    {
+        "created_at": "2021-06-03 14:38:56",
+        "favourite_count": 1,
+        "hashtags": [],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 0,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "@JairAbregoC @RobOttoBots I started off with Java at school. Then, I learned JavaScript to do web development; I continued with Typescript to avoid some pitfalls in JS. Lately, I've been using Python to automate tasks and for data analysis.",
+        "tweet_id": 1400462008789594117
+    },
+    {
+        "created_at": "2021-06-03 10:00:48",
+        "favourite_count": 14,
+        "hashtags": [
+            {
+                "indices": [
+                    172,
+                    179
+                ],
+                "text": "Python"
+            },
+            {
+                "indices": [
+                    180,
+                    191
+                ],
+                "text": "javascript"
+            },
+            {
+                "indices": [
+                    192,
+                    197
+                ],
+                "text": "Java"
+            },
+            {
+                "indices": [
+                    198,
+                    209
+                ],
+                "text": "CodeNewbie"
+            },
+            {
+                "indices": [
+                    210,
+                    224
+                ],
+                "text": "100DaysOfCode"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 13,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "In my experience as a programmer, I have learned that is not a good practice to trash a programming language; they are just simple tools that have their own nitch and use.\n#Python #javascript #Java #CodeNewbie #100DaysOfCode",
+        "tweet_id": 1400392011442761731
+    },
+    {
+        "created_at": "2021-06-03 09:52:51",
+        "favourite_count": 1,
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    14
+                ],
+                "text": "100DaysOfCode"
+            }
+        ],
+        "location": null,
+        "mined_at": "2021-06-11 06:32:07.118422",
+        "name": "Waldo Milanes",
+        "quote_screen_name": null,
+        "quote_text": null,
+        "retweet_count": 3,
+        "retweet_text": null,
+        "screen_name": "WaldoMilanes",
+        "source_device": "Twitter for Android",
+        "status_count": 597,
+        "text": "#100DaysOfCode https://t.co/8QbuNnh4ya",
+        "tweet_id": 1400390010923274242
+    }
+]

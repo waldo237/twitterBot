@@ -29,10 +29,14 @@ def main():
                 api.update_status(status=line)
                 print("Will Tweet in 15 minutes")
                 time.sleep(900)
-            except:
-                print("There was an error, try 30 seconds")
-                time.sleep(30)
-
+            except tweepy.TweepError as e:
+                print(e.reason)
+                time.sleep(3)
+                continue
+            except tweepy.RateLimitError:
+                time.sleep(15*60)
+            except StopIteration:
+                break
 
 if __name__ == "__main__":
     main()
