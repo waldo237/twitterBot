@@ -21,7 +21,7 @@ class TweetCrawler(object):
         'access_token_secret': ACCESS_SECRET
     }
 
-    def __init__(self, keys_dict=twitter_keys, api=api, result_limit=20):
+    def __init__(self, keys_dict=twitter_keys, api=api, result_limit=5):
 
         self.twitter_keys = keys_dict
         auth = tweepy.OAuthHandler(
@@ -47,13 +47,13 @@ class TweetCrawler(object):
                                                   count=self.result_limit,
                                                   max_id=last_tweet_id - 1,
                                                   tweet_mode='extended',
-                                                  include_retweets=True
+                                                  include_retweets=False
                                                   )
             else:
                 statuses = self.api.user_timeline(screen_name=user,
                                                   count=self.result_limit,
                                                   tweet_mode='extended',
-                                                  include_retweets=True)
+                                                  include_retweets=False)
 
             for item in statuses:
 
