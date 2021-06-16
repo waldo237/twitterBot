@@ -20,7 +20,7 @@ class TweetBot:
     def __init__(self, api):
         self.api = api
 
-    async def like_and_follow_replies(self, count):
+    def like_and_follow_replies(self, count):
         timeline = api.mentions_timeline(count)
         for tweet in timeline:
             if not tweet.user.following:
@@ -43,7 +43,7 @@ class TweetBot:
                 print(f"Just tweeted {tweet}", now())
                 break
 
-    async def like_home_tweets(self, num_tweets=20):
+    def like_home_tweets(self, num_tweets=20):
         tweets = self.api.home_timeline(count=num_tweets)
         for tweet in tweets:
             if not tweet.favorited and tweet.author != api.me():
@@ -52,19 +52,17 @@ class TweetBot:
 
 
 def now():
-    return '-->' + time.ctime(time.time())
+    return '-->' + time.ctime()
 
 async def main():
     bot = TweetBot(api)
     try:
         while True:
-            await asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
-            await asyncio.sleep(1)
-            await asyncio.create_task(bot.like_and_follow_replies(10))
-            await asyncio.sleep(1)
-            await asyncio.create_task(bot.like_home_tweets(5))
+            asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
+            bot.like_and_follow_replies(10)
+            bot.like_home_tweets(5)
             print('see you in 1 hour', now())
-            await asyncio.sleep(60*60*24)
+            await  asyncio.sleep(60*60*12)
     except tweepy.TweepError as e:
         print(e.reason)
     except tweepy.RateLimitError:
@@ -74,3 +72,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
