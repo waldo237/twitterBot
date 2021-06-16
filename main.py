@@ -64,7 +64,7 @@ async def main():
             await asyncio.sleep(1)
             await asyncio.create_task(bot.like_home_tweets(5))
             print('see you in 1 hour', now())
-            await asyncio.sleep(60*60)
+            await asyncio.sleep(60*60*24)
     except tweepy.TweepError as e:
         print(e.reason)
     except tweepy.RateLimitError:
