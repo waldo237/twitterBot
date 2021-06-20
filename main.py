@@ -31,13 +31,14 @@ class TweetBot:
                 print(f"liked {tweet.user.name}'s reply: {tweet.text}", now())
 
     async def tweet_from_a_file(self, fname):
-        """ tweets the lines from a file every 40 minutes."""
+        """ tweets the lines from a file every 12 hours."""
         csv = pd.read_csv(fname)
 
         for i, v in enumerate(csv.values):
             tweet = v[0]
             if not "already_tweeted" in tweet:
-                self.api.update_with_media(pf.find_photo(), status=tweet)
+                # self.api.update_with_media(pf.find_photo(), status=tweet)
+                self.api.update_status(status=tweet)
                 csv.loc[i, 'tweets'] = tweet + " already_tweeted"
                 csv.to_csv(fname, index=False)
                 print(f"Just tweeted {tweet}", now())
