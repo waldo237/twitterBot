@@ -5,7 +5,8 @@ import time
 import pandas as pd
 import asyncio
 import photo_finder as pf
-
+from urllib import request, parse
+import json
 CONSUMER_KEY = config('KEY')
 CONSUMER_SECRET = config('SECRET')
 ACCESS_TOKEN = config('ACCESS')
@@ -44,6 +45,27 @@ class TweetBot:
                 print(f"Just tweeted {tweet}", now())
                 break
 
+    async def tweet_from_api(self):
+        """ tweets the lines from a file every 12 hours."""
+        URL = config('SERVER_URL')
+        with request.urlopen(URL) as f:
+            tweets = json.loads(f.read())
+            for t in tweets:
+                if t["status"] == 'active':
+                    print(t)
+                    # self.api.update_with_media(pf.find_photo(), status=tweet)
+                    self.api.update_status(status=t['text'])
+                    await self.mark_as_done(t)
+                    print(f"Just tweeted {t}", now())
+                    break
+
+    async def mark_as_done(self, t):
+        data = parse.urlencode({'id': t["id"], 'mark_as_done':True})
+        data = data.encode('ascii')
+        URL = config('SERVER_URL')
+        with request.urlopen(URL, data) as f:
+            print(f.read().decode('utf-8'))
+
     def like_home_tweets(self, num_tweets=20):
         tweets = self.api.home_timeline(count=num_tweets)
         for tweet in tweets:
@@ -59,9 +81,10 @@ async def main():
     bot = TweetBot(api)
     try:
         while True:
-            asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
+            # asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
+            asyncio.create_task(bot.tweet_from_api())
             bot.like_and_follow_replies(10)
-            bot.like_home_tweets(5)
+            bot.like_home_tweets(20)
             print('see you in 1 hour', now())
             await  asyncio.sleep(60*60*12)
     except tweepy.TweepError as e:
