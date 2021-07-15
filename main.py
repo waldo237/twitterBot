@@ -51,8 +51,7 @@ class TweetBot:
         with request.urlopen(URL) as f:
             tweets = json.loads(f.read())
             for t in tweets:
-                if t["status"] == 'active':
-                    print(t)
+                if t["status"].strip() == 'active':
                     # self.api.update_with_media(pf.find_photo(), status=tweet)
                     self.api.update_status(status=t['text'])
                     await self.mark_as_done(t)
