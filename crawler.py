@@ -7,7 +7,7 @@ CONSUMER_SECRET = config('SECRET')
 ACCESS_TOKEN = config('ACCESS')
 ACCESS_SECRET = config('ACCESS_SECRET')
 
-
+ 
 class TweetCrawler(object):
 
     result_limit = 20
