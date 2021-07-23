@@ -83,7 +83,7 @@ async def main():
             # asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
             asyncio.create_task(bot.tweet_from_api())
             bot.like_and_follow_replies(10)
-            bot.like_home_tweets(20)
+            bot.like_home_tweets(80)
             print('see you in 1 hour', now())
             await  asyncio.sleep(60*60*6)
     except tweepy.TweepError as e:
