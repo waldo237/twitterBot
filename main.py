@@ -72,7 +72,8 @@ class TweetBot:
                 print(f"Liking tweet {tweet.id} of {tweet.author.name}", now())
                 tweet.favorite()
 
-
+   
+   
 def now():
     return '-->' + time.ctime()
 
