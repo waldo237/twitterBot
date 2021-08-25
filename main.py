@@ -2,7 +2,6 @@
 import tweepy
 from decouple import config
 import time
-import pandas as pd
 import asyncio
 import photo_finder as pf
 from urllib import request, parse
@@ -14,15 +13,13 @@ ACCESS_SECRET = config('ACCESS_SECRET')
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
-
 
 class TweetBot:
     def __init__(self, api):
         self.api = api
 
     def like_and_follow_replies(self, count):
-        timeline = api.mentions_timeline(count)
+        timeline = self.api.mentions_timeline(count)
         for tweet in timeline:
             if not tweet.user.following:
                 tweet.user.follow()
@@ -59,7 +56,7 @@ class TweetBot:
                     break
 
     async def mark_as_done(self, t):
-        data = parse.urlencode({'id': t["id"], 'mark_as_done':True})
+        data = parse.urlencode({'id': t["id"], 'mark_as_done': True})
         data = data.encode('ascii')
         URL = config('SERVER_URL')
         with request.urlopen(URL, data) as f:
@@ -68,33 +65,33 @@ class TweetBot:
     def like_home_tweets(self, num_tweets=20):
         tweets = self.api.home_timeline(count=num_tweets)
         for tweet in tweets:
-            if not tweet.favorited and tweet.author != api.me():
+            if not tweet.favorited and tweet.author != self.api.me():
                 print(f"Liking tweet {tweet.id} of {tweet.author.name}", now())
                 tweet.favorite()
 
-   
-   
+
 def now():
-    return '-->' + time.ctime()
+    return f"-->{time.ctime()}"
+
 
 async def main():
+    api = tweepy.API(auth, wait_on_rate_limit=True,
+                     wait_on_rate_limit_notify=True)
     bot = TweetBot(api)
     try:
         while True:
             # asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
             asyncio.create_task(bot.tweet_from_api())
             bot.like_and_follow_replies(10)
-            bot.like_home_tweets(80)
+            bot.like_home_tweets(100)
             print('see you in 1 hour', now())
-            await  asyncio.sleep(60*60*6)
+            await asyncio.sleep(60*60*6)
     except tweepy.TweepError as e:
         print(e.reason)
     except tweepy.RateLimitError:
         await asyncio.sleep(15*60)
-    except  Exception as e:
+    except Exception as e:
         print('there was an error', e)
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
