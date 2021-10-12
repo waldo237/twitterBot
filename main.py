@@ -15,6 +15,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
 
 class TweetBot:
+
     def __init__(self, api):
         self.api = api
 
