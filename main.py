@@ -29,19 +29,19 @@ class TweetBot:
                 tweet.favorite()
                 print(f"liked {tweet.user.name}'s reply: {tweet.text}", now())
 
-    async def tweet_from_a_file(self, fname):
-        """ tweets the lines from a file every 12 hours."""
-        csv = pd.read_csv(fname)
+    # async def tweet_from_a_file(self, fname):
+    #     """ tweets the lines from a file every 12 hours."""
+    #     # csv = pd.read_csv(fname)
 
-        for i, v in enumerate(csv.values):
-            tweet = v[0]
-            if not "already_tweeted" in tweet:
-                # self.api.update_with_media(pf.find_photo(), status=tweet)
-                self.api.update_status(status=tweet)
-                csv.loc[i, 'tweets'] = tweet + " already_tweeted"
-                csv.to_csv(fname, index=False)
-                print(f"Just tweeted {tweet}", now())
-                break
+    #     for i, v in enumerate(csv.values):
+    #         tweet = v[0]
+    #         if not "already_tweeted" in tweet:
+    #             # self.api.update_with_media(pf.find_photo(), status=tweet)
+    #             self.api.update_status(status=tweet)
+    #             csv.loc[i, 'tweets'] = tweet + " already_tweeted"
+    #             csv.to_csv(fname, index=False)
+    #             print(f"Just tweeted {tweet}", now())
+    #             break
 
     async def tweet_from_api(self):
         """ tweets the lines from a file every 12 hours."""
@@ -84,7 +84,7 @@ async def main():
             # asyncio.create_task(bot.tweet_from_a_file('tweets.csv'))
             asyncio.create_task(bot.tweet_from_api())
             bot.like_and_follow_replies(10)
-            bot.like_home_tweets(100)
+            bot.like_home_tweets(50)
             print('see you in 1 hour', now())
             await asyncio.sleep(60*60*6)
     except tweepy.TweepError as e:
